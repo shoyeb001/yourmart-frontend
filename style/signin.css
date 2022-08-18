@@ -1,0 +1,33 @@
+.login{
+    width: 100%;
+    height:auto;
+    margin-top: 20px;
+}
+
+.login .card{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+    border: none ip !important;
+    border-radius: 1rem;
+    margin-bottom: 15px;
+}
+.login .card .card-header{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.login .card .btn{
+    border: 5px solid #002f34 !important;
+}
+
+.login .card .btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+@media (max-width:750px) {
+    .login .card{
+        width: 90%;
+    }
+}

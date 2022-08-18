@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/utility.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/viewprofile.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><b>YourMart</b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Signin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sell</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Your Location</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="edit-profile">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="img-container">
+                        <figure class="img">
+                            <img src="img/profile/profile.webp" alt="" srcset="">
+                        </figure>
+                    </div>
+                    <div class="card linked-acc">
+                        <div class="card-header">
+                            <h6>Linked Accounts</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="phone info">
+                                <span>Phone No</span>
+                                <span><svg width="20px" height="20px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M744.727 450.484v-54.846h-54.846l-216.669 216.669-100.305-100.305h-54.846v54.846l127.728 127.728h54.846l244.092-244.092zM512 162.911c-192.485 0-349.091 156.606-349.091 349.091s156.606 349.091 349.091 349.091c192.485 0 349.091-156.606 349.091-349.091s-156.606-349.091-349.091-349.091v0zM512 938.669c-235.268 0-426.667-191.399-426.667-426.667s191.399-426.667 426.667-426.667c235.268 0 426.667 191.399 426.667 426.667s-191.399 426.667-426.667 426.667v0z"></path></svg></span>
+                            </div>
+                            <div class="email info">
+                                <span>Email</span>
+                                <span><svg width="20px" height="20px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M744.727 450.484v-54.846h-54.846l-216.669 216.669-100.305-100.305h-54.846v54.846l127.728 127.728h54.846l244.092-244.092zM512 162.911c-192.485 0-349.091 156.606-349.091 349.091s156.606 349.091 349.091 349.091c192.485 0 349.091-156.606 349.091-349.091s-156.606-349.091-349.091-349.091v0zM512 938.669c-235.268 0-426.667-191.399-426.667-426.667s191.399-426.667 426.667-426.667c235.268 0 426.667 191.399 426.667 426.667s-191.399 426.667-426.667 426.667v0z"></path></svg></span>
+                            </div>
+                            <div class="Facebook info">
+                                <span>Facebook Profile</span>
+                                <span><svg width="20px" height="20px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M744.727 450.484v-54.846h-54.846l-216.669 216.669-100.305-100.305h-54.846v54.846l127.728 127.728h54.846l244.092-244.092zM512 162.911c-192.485 0-349.091 156.606-349.091 349.091s156.606 349.091 349.091 349.091c192.485 0 349.091-156.606 349.091-349.091s-156.606-349.091-349.091-349.091v0zM512 938.669c-235.268 0-426.667-191.399-426.667-426.667s191.399-426.667 426.667-426.667c235.268 0 426.667 191.399 426.667 426.667s-191.399 426.667-426.667 426.667v0z"></path></svg></span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center mt-2 member">Member since March 2022</p>
+                    <p class="text-center mt-2 share"><a href="#">Share Profile Link</a></p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="conatainer">
+                    <div class="profile-info">
+                        <div class="container">
+                            <h1 class="position-relative">Sk Shoyeb Web Developer <a href="">Edit Profile</a> </h1> 
+                            <p>I have a business of selling products online with free cash on delivery ..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="no-ads">
+                        <div class="container">
+                            <div class="img">
+                                <img src="img/no-ads.webp" alt="no-ads">
+                            </div>
+                            <h5 class="text-center">There are no Ads</h5>
+                            <p class="text-center text-muted">When users post ads, will appear here. If you want to post something you can do it now</p>
+                            <a href="" class="btn">Start Selling</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <p class="text-center pt-3">
+            Free Classifield India- Copyright Reserved Shoyeb 2022
+          </p>
+        </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

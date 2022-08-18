@@ -1,0 +1,32 @@
+
+.header nav{
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    padding:1rem 2rem;
+}
+.header nav form{
+    border: 2px solid #002f34;
+
+}
+.header nav form select{
+    border: none;
+}
+
+.header nav form input{
+    border: none;
+    background: none;
+}
+
+.header nav form button{
+    background: #002f34;
+    color: #fff;
+    border-radius: 0px !important;
+}
+.header nav form button:hover{
+    color: #fff;
+}
+
+.hedaer nav .nav-link{
+    font-weight: 900;
+}

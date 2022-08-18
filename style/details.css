@@ -1,0 +1,120 @@
+.details{
+    width: 100%;
+    height: auto;
+}
+
+.pro-details{
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+    border: none !important;
+    border-radius: 1rem;
+}
+
+.pro-details h3{
+    padding-top: 15px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+    border: none ip !important;
+    border-radius: 1rem;
+    width: 100%;
+    margin: auto;
+}
+.price span{
+    font-size: 2rem;
+   
+}
+
+.price .rs{
+    text-align: left;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.price .share{
+    text-align: right;
+}
+
+.price .share i{
+    margin-right: 10px;
+}
+
+.price p{
+    color: #406367;
+    margin-top: 8px;
+}
+
+.price .location{
+    font-size: 12px;
+}
+
+.seller-desc{
+    width: 100%!important;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+    border: none ip !important;
+    border-radius: 1rem;
+}
+
+.seller-desc h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.seller-desc .row img{
+    height: 100px;
+    object-fit: cover;
+}
+
+.seller-desc .btn{
+    width: 100%;
+    color: #002f34;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: none;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.seller-desc .btn:hover{
+    border-width: 5px;
+    padding: 0 7px;
+}
+
+.seller-desc .btn:active{
+    background-color: #406367;
+    color: #fff;
+}
+
+.map-card{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+    border: none ip !important;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.map-card h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.map-card iframe{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
